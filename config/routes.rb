@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   root "index#home"
   get "about", to: "index#about"
   get "contact", to: "index#contact"
-  get "new", to: "articles#new"
+  get "articles/new", to: "articles#new"
 end
